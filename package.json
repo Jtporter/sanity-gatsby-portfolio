@@ -3,7 +3,7 @@
   "name": "sanity-gatsby-portfolio",
   "version": "0.0.0",
   "scripts": {
-    "build": "lerna run build --parallel",
+    "build": "lerna run build --parallel && lerna bootstrap",
     "dev": "lerna run dev --parallel",
     "format": "lerna run format",
     "build-studio": "(cd studio && npm run build)",

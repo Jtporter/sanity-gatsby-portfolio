@@ -29,7 +29,7 @@ If you want to disable the preview you can set `watchMode: false` in gatsby-con
 
 ## Deploy changes
 
-Netlify automatically deploys new changes commited to the `master` branch on GitHub. If you want to change the deployment branch you may do so in [build & deploy settings on Netlify](https://www.netlify.com/docs/continuous-deployment/#branches-deploys).
+Netlify automatically deploys new changes committed to the `master` branch on GitHub. If you want to change the deployment branch you may do so in [build & deploy settings on Netlify](https://www.netlify.com/docs/continuous-deployment/#branches-deploys).
 
 ## Get help
 

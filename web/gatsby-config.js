@@ -3,6 +3,9 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV || 'development'}`
 })
 
+// FIXES NPM RUN DEV ISSUE
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
+
 const clientConfig = require('./client-config')
 const token = process.env.SANITY_READ_TOKEN
 
